@@ -36,7 +36,7 @@ define([], function(){
 		$friends = document.getElementById("js-friends");
 		var tagStr = $tag?'<span class="viewer-title">Tag</span><div class="viewer-div tagcloud" id="js-mobile-tagcloud"></div>':"";
 		var friendsStr = $friends?'<span class="viewer-title">Link</span><div class="viewer-div friends" id="js-mobile-friends"></div>':"";
-		var aboutmeStr = $aboutme?'<span class="viewer-title">About me</span><div class="viewer-div aboutme" id="js-mobile-aboutme"></div>':"";
+		var aboutmeStr = $aboutme?'<span class="viewer-title">About Me</span><div class="viewer-div aboutme" id="js-mobile-aboutme"></div>':"";
 
 		$viewer.innerHTML = '<div id="viewer-box">\
 		<div class="viewer-box-l">\
